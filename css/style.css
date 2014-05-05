@@ -1,0 +1,87 @@
+body{ background-color: #a6e87a;}
+
+
+.sprite {
+    float: left;;
+    width: 135px;
+    height: 131px;
+    background: url(../imgs/kidneyDanceSmall.png) 0 0 no-repeat;
+
+    -webkit-animation: play 1.75s steps(44) infinite;
+    animation: play 1.75s steps(44) infinite;
+
+}
+
+
+
+@-webkit-keyframes play {
+    0% { background-position:  0 0; }
+    100% { background-position: 0 -6116px; }
+}
+
+
+
+@keyframes play {
+
+    0% { background-position:  0 0 }
+    100% { background-position: 0 -6116px; }
+}
+
+
+.topsek {
+    float: left;
+    margin-left: 200px;
+    margin-top: -20px;
+    width: 100px;
+    height: 177px;
+    background: url(../imgs/topsek2.png) 0 0 no-repeat;
+
+    -webkit-animation: play2 .6s steps(40) infinite;
+    animation: play2 .6s steps(44) infinite;
+
+}
+
+
+
+@-webkit-keyframes play2 {
+    0% { background-position:  0 0; }
+    100% { background-position: 0 -7080px; }
+}
+
+
+
+@keyframes play2 {
+
+    0% { background-position:  0 0 }
+    100% { background-position: 0 -7080px; }
+}
+
+
+.down {
+    float: left;
+    margin-left: 200px;
+    width: 108px;
+    height: 129px;
+    background: url(../imgs/vomit5.png) 0 0 no-repeat;
+
+    -webkit-animation: play2 4.6s steps(53) infinite;
+    animation: play2 4.6s steps(53) infinite;
+
+}
+
+
+
+@-webkit-keyframes play3 {
+    0% { background-position:  0 0; }
+    100% { background-position: 0 -6837px; }
+}
+
+
+
+@keyframes play3 {
+
+    0% { background-position:  0 0 }
+    100% { background-position: 0 -6837px; }
+}
+
+
